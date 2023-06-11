@@ -1,0 +1,313 @@
+* {
+    margin: 0; 
+    padding: 0;
+    /* border: 3px solid rgb(255, 158, 239); */
+}
+
+body{
+
+    background: #161515;
+    /* border: 5px solid rgb(223, 240, 69); */
+}
+
+
+.album_name{
+    position: absolute;
+    font-size: 1rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    line-height: 1.5em;
+    /* border: 5px solid rgb(0, 255, 76); */
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+#album_1{
+/* Card Outline */
+
+
+position: absolute;
+width: 390px;
+height: 641px;
+left: 26px;
+top: 178px;
+
+background: radial-gradient(110.9% 45.33% at 3.08% 80.57%, #DA0505 51.35%, #181717 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+border: 1px solid #847777;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.16);
+border-radius: 35px;
+
+}
+
+#album_1_cover{
+
+/* Kraftwerk_The_Man_Machine 1 */
+
+position: absolute;
+width: 388px;
+height: 390px;
+left: 0px;
+top: 0px;
+
+background: url(Kraftwerk_The_Man_Machine.png);
+border-radius: 35px;
+}
+
+#album_1_cover>img{
+width: 390px;
+}
+
+#album_1_buy_album>img{
+width: 50px;
+left: 200px;
+
+}
+
+#album_1_buy_album>p{
+padding-bottom: 10px;
+
+}
+
+#album_1_buy_album{
+/* Button - Buy Album */
+
+position: absolute;
+width: 356px;
+height: 56px;
+left: 20px;
+top: 350px;
+
+background: #FFFEFE;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(73, 54, 54, 0.25);
+border-radius: 20px;
+
+}
+
+#album_1_track_1{
+/* Button - track 1 */
+
+position: absolute;
+width: 359px;
+height: 56px;
+left: 20px;
+top: 425px;
+
+background: #FFFEFE;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(73, 54, 54, 0.25);
+border-radius: 20px;
+
+}
+
+
+#album_1_track_1>img{
+    width: 50px;
+    left: 200px;
+    }
+
+#album_1_track_2>img{
+    width: 50px;
+    left: 200px;
+    }
+
+#album_1_track_3>img{
+    width: 50px;
+    left: 200px;
+    }
+
+#album_1_track_2{
+/* Button - track 2 */
+
+position: absolute;
+width: 359px;
+height: 56px;
+left: 20px;
+top: 500px;
+
+background: #FFFEFE;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(73, 54, 54, 0.25);
+border-radius: 20px;
+
+}
+
+
+#album_1_track_3{
+/* Button - track 3 */
+
+
+position: absolute;
+width: 359px;
+height: 56px;
+left: 20px;
+top: 575px;
+
+background: #FFFEFE;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(73, 54, 54, 0.25);
+border-radius: 20px;
+
+}
+
+/* ********************************************************************************* */
+
+#album_2{
+/* Card Outline */
+
+
+position: absolute;
+width: 390px;
+height: 641px;
+left: 452px;
+top: 178px;
+
+background: linear-gradient(146.22deg, #010101 61.33%, #F72E00 98.92%);
+border: 1px solid #847777;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.16);
+border-radius: 35px;
+}
+
+
+#album_1_cover{
+
+    /* Kraftwerk_The_Man_Machine 1 */
+    
+    position: absolute;
+    width: 388px;
+    height: 390px;
+    left: 0px;
+    top: 0px;
+    
+    background: url(Kraftwerk_The_Man_Machine.png);
+    border-radius: 35px;
+    }
+    
+   
+    #album_2_cover>img{
+    width: 390px;
+    }
+    
+    #album_2_buy_album>img{
+    width: 50px;
+    left: 200px;
+    
+    }
+    
+    #album_2_buy_album>p{
+    padding-bottom: 10px;
+    
+    }
+    
+    #album_2_buy_album{
+    /* Button - Buy Album */
+    
+    position: absolute;
+    width: 356px;
+    height: 56px;
+    left: 20px;
+    top: 350px;
+    
+    background: #FFFEFE;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(73, 54, 54, 0.25);
+    border-radius: 20px;
+    
+    }
+    
+    #album_2_track_1{
+    /* Button - track 1 */
+    
+    position: absolute;
+    width: 359px;
+    height: 56px;
+    left: 20px;
+    top: 425px;
+    
+    background: #FFFEFE;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(73, 54, 54, 0.25);
+    border-radius: 20px;
+    
+    }
+    
+    
+    #album_2_track_1>img{
+        width: 50px;
+        left: 200px;
+        }
+    
+    #album_2_track_2>img{
+        width: 50px;
+        left: 200px;
+        }
+    
+    #album_2_track_3>img{
+        width: 50px;
+        left: 200px;
+        }
+    
+    #album_2_track_2{
+    /* Button - track 2 */
+    
+    position: absolute;
+    width: 359px;
+    height: 56px;
+    left: 20px;
+    top: 500px;
+    
+    background: #FFFEFE;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(73, 54, 54, 0.25);
+    border-radius: 20px;
+    
+    }
+    
+    
+    #album_2_track_3{
+    /* Button - track 3 */
+    
+    
+    position: absolute;
+    width: 359px;
+    height: 56px;
+    left: 20px;
+    top: 575px;
+    
+    background: #FFFEFE;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(73, 54, 54, 0.25);
+    border-radius: 20px;
+    
+    } */
+
+
+/* *************************************************************************************** */
+
+#album_3{
+
+/* Card Outline */
+
+
+position: absolute;
+width: 390px;
+height: 641px;
+left: 878px;
+top: 178px;
+
+background: radial-gradient(85.77% 39.51% at 17.31% 60.49%, #5795B4 49.61%, #DFB589 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+border: 1px solid #847777;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.16);
+border-radius: 35px;
+}
+
+
+
+#album_4{
+/* Card Outline */
+
+
+position: absolute;
+width: 390px;
+height: 641px;
+left: 1304px;
+top: 178px;
+
+background: radial-gradient(110.9% 45.33% at 3.08% 80.57%, #F4EAD1 55.24%, rgba(255, 248, 248, 0) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+border: 1px solid #847777;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.16));
+border-radius: 35px;
+
+}
